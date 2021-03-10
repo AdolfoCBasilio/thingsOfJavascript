@@ -27,8 +27,7 @@ const arreglo=[1,2,3,4];
 
 // for (let i = 0; i < arreglo.length; i++) { //seguimiento por indice
 //     const element = arreglo[i];
-//     console.log('el elemento es : '+element+ ' en la poscicion '+i)
-    
+//     console.log('el elemento es : '+element+ ' en la poscicion '+i) 
 // }
 
 /* METODOS EN ECMASCRIPT6 */
@@ -46,7 +45,7 @@ const arreglo=[1,2,3,4];
 // FLAT
 // FIND
 
-//forEach solo es recorrido de elemenots
+//forEach solo es recorrido de elementos para arreglos
 // arreglo.forEach(element => {
 //     console.log(element)
 // });
@@ -95,3 +94,67 @@ const arreglo=[1,2,3,4];
 //     return 0;
 // })
 // console.log(arregloSort)
+
+
+
+/*--------------------------------------------------------------------------*/
+// //MAPA
+// let mapa = new Map();
+// mapa.set("juan",10);
+// const data =mapa.get("juan");  //10
+// console.log(data)
+// mapa.clear();//limpia
+// mapa.delete("juan"); //borra
+// mapa.has("juan"); //true
+
+// //SET
+// let calificaciones = new Set();
+// calificaciones.add(10);
+// calificaciones.add(8);
+// calificaciones.add(5);
+// calificaciones.add(10);//no lo agrega porque existe
+
+// let elementos = calificaciones.entries();
+// elementos.next().value;//retorna 7 si [7,8]
+// elementos.next().value;//retorna 8 si [7,8]
+
+//39 
+
+/*--------------------------------------------------------------- */
+    //CADENAS DE TEXTO
+const texto="hola"
+// console.log(texto.length)//da la longitudad inicia en 1 
+// // console.log(texto[1])
+
+// console.log(texto.indexOf("h"));//retorna la primera conincidencia
+// console.log(texto.lastIndexOf("a"));//retorna la ultima coincidencia
+// console.log(texto.slice(0,4));//muestra solo dentro del rango de slice (indice, final)
+// console.log(texto.substr(0,2));//substrae una cadena de texto (indice, numero de caracteres totales)
+
+// const nuevo = texto.replace("hola","amigos");//remplaza un texto 
+// console.log(nuevo);
+
+// console.log(texto.toUpperCase())
+// console.log(texto)
+// console.log(texto.toLowerCase())
+
+// let concatenado = nuevo.concat(' ',texto)
+// console.log(concatenado)//une dos textos
+
+// let separado = " hola separado ";
+// console.log(separado.trim())//quita espacios vacios
+// console.log(separado.split(' '))// separa donde indique ' '
+
+// for (let i = 0; i < texto.length; i++) {//hace recorrido por letra 
+//     const item = texto[i];
+//     console.log(item)
+// }
+// const texto2=[1,2,3,4,5] //para arreglos
+// texto2.forEach(element => {
+//     console.log(element)
+// });
+
+// console.log(typeof(texto))//typeof
+
+/* -------------------------------------------------------- */
+//OBJETOS #43
