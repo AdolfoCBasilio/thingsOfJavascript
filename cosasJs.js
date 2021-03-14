@@ -1,4 +1,5 @@
 const arreglo=[1,2,3,4];
+/*Diferencia entre arreglos y objetos */
 
 // const sumaNan = (num1='1',num2=10)=>{ //funcion con parametros
 //     if(isNaN(num1) || num1!==Number){
@@ -122,7 +123,7 @@ const arreglo=[1,2,3,4];
 
 /*--------------------------------------------------------------- */
     //CADENAS DE TEXTO
-const texto="hola"
+// const texto="hola"
 // console.log(texto.length)//da la longitudad inicia en 1 
 // // console.log(texto[1])
 
@@ -158,3 +159,7 @@ const texto="hola"
 
 /* -------------------------------------------------------- */
 //OBJETOS #43
+
+const letras=['hola','cosa','fea','usuarios'];
+const otras='otras'
+console.log((letras.concat(otras)))
