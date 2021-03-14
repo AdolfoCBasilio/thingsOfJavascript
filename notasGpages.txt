@@ -1,0 +1,24 @@
+1) npm install --save-dev gh-pages
+
+2) Crear repositorio en GitHub
+
+3) iniciar repositorio en nuestro proyecto: git init
+
+4) Agregar la ruta como remoto existente
+
+5) git remote -v
+
+
+
+*/ agregar al inicio en package.json */
+6) "homepage":"https://TuUsuario.github.io/TuApp" ,
+
+/* agregar en scripts en package.json */
+7) "predeploy": "npm run build",
+8) "deploy": "gh-pages -d build"
+
+9) npm run build
+10) npm run deploy
+
+Si cambias el nombre de tu proyecto en github tienes 
+que cambiarlo tambien en package.json nuevamente
