@@ -1,4 +1,46 @@
-git remote add origin https://github.com/AdolfoCBasilio/thingsOfJavascript.git
-git init
-git remote --v
-git fetch
+GUIA DE COMANDOS DE GIT
+
+/* Configuracion */
+
+git config --global => inicia configuracion inicial
+user.name "tu nombre" => agrega tu user name
+user.email "tu email" => agrega tu email
+
+/* CREACION */
+
+git clone "repositorio" => clona un repositorio
+git init => inicia un repositorio de git local
+
+/* Estado */
+
+git status => muestra que tienes por agregar
+git log => muestra todos los commits
+git diff => muestra los cambios
+
+/* Cambios */
+
+git add . =>  agrega todos los archivos
+git add "index.html" => agrega solo un archivo a la vez
+git commit -m "cambios" => agregas un commit nuevo
+
+/* Ramas */
+
+git branch => muestra la rama en la que estas
+git branch -a => muestra ramas locales
+git branch -r =>  muestra ramas remotas
+git branch "crea rama" => crea una rama nueva
+git checkout "rama" => cambio de rama
+git merge "rama" => une cambios entre ramas
+
+/* Actualizacion y publicacion */
+
+git pull origin "rama" => trae actualizaciones desde remoto
+git push -u origin "rama" => envias tus cambios a tu repositiorio remoto
+git remote add origin "url" => agregar un repositorio remoto para guardar todo tu proyecto
+
+/* EXTRAS IMPORTANTES */
+
+git remote --v => muestra respositorio en el que trabajas 
+rm -rf .git => elimina TODO respositorio de git en carpeta (por si creas una git init donde no era)
+git reset --hard <commit> =>elimina un commit
+git push -u origin <branch> --force => actuliza!!!
